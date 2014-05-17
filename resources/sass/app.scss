@@ -1,0 +1,63 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+/*
+.x-toolbar{
+  height: 90px;
+  background: #47b7bf;
+  .x-title {
+    font-size: 24px;
+    font-weight: normal;
+    color: #f3f7f7;
+  }
+}
+.x-toolbar.x-docked-top {
+  border-bottom:none;
+}
+
+.x-list{
+  background-color: #353432;
+}
+.x-list-item{
+  color: #a1a4a4;
+  font-size: 18px;
+  line-height: 35px;
+  padding: 0 12px;
+  border-bottom: 1px solid #42413f;
+}
+.x-list .x-list-item.x-item-selected .x-dock-horizontal,
+.x-list .x-list-item.x-item-selected.x-list-item-tpl,
+.x-list .x-list-item.x-item-pressed .x-dock-horizontal,
+.x-list .x-list-item.x-item-pressed.x-list-item-tpl{
+  color: #a1a4a4;
+  background-color: #2b2b29;
+}
+
+.x-scroll-indicator{
+  background: rgba(71, 183, 191, 0.36);
+  border-radius: 4px;
+}
+
+*/
+.image{
+  font-family: vani;
+}
+.image span{
+  display: block;
+  font-weight: bold;
+}
+.image img{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 8px;
+  border-radius: 2px;
+}
